@@ -13,7 +13,7 @@
             <select name='patient'>
                 <option value="" disabled selected>Choose your option</option>
                 <?php foreach ($patients as $patient) { ?>
-                    <option value="<?=$patient['id']?>" ><?=$patient['lastname']?> <?=$patient['firstname']?></option>
+                    <option value="<?=$patient['id']?>" ><?=$patient['lastname']?> <?=$patient['firstname']?></option> <? //  <?=  correspond à faire <?php echo ?>
                 <?php }?>
             </select>
             <label>Materialize Select</label>
